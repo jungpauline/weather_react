@@ -48,15 +48,15 @@ export default function App() {
               <span className="current-temp">
                 <span id="currentTemp">0</span>
                 <span id="units">
-                  <a href="#" id="celsius-link" className="activeunit">
+                  <span id="celsius-link" className="activeunit">
                     {" "}
                     °C
-                  </a>
+                  </span>
                   |
-                  <a href="#" id="fahrenheit-link" className="unit">
+                  <span id="fahrenheit-link" className="unit">
                     {" "}
                     °F
-                  </a>
+                  </span>
                 </span>
               </span>
 
