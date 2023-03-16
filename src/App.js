@@ -38,8 +38,10 @@ export default function App() {
                 London
               </div>
               <div className="col-6 day">
-                <div id="currentDate"></div>
-                <div className="col time" id="currentTime"></div>
+                <div id="currentDate">Thursday March 16th</div>
+                <div className="col time" id="currentTime">
+                  22:22
+                </div>
               </div>
             </div>
             <div className="d-flex justify-content-left align-items-center">
@@ -61,12 +63,12 @@ export default function App() {
               <img src="" alt="" id="current-icon" />
 
               <ul className="current-characteristics">
-                <li id="current-description"></li>
+                <li id="current-description">Cloudy</li>
                 <li>
-                  Humidity: <span id="current-humidity"></span>%
+                  Humidity: <span id="current-humidity">20</span>%
                 </li>
                 <li>
-                  Wind: <span id="current-wind"></span> m/s
+                  Wind: <span id="current-wind">3</span> m/s
                 </li>
               </ul>
             </div>
